@@ -116,7 +116,7 @@ client.on("message", async message =>{
 
 
 
-				)
+				
 				.setFooter("Bot gemaakt door Raredombo")
 
 				return message.channel.send(botEmbed);
