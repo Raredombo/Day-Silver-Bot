@@ -55,6 +55,8 @@ client.on("message", async message =>{
 	var picture = berichten.picture
 
 	var titel = berichten.titel
+	
+	var verjaardag = berichten.verjaardag
 
 
 
@@ -101,6 +103,10 @@ client.on("message", async message =>{
 				return message.channel.send(botEmbed);
 
 
+	}
+	
+                if(command === `${prefix}verjaardag`){
+		return message.channel.send(verjaardag);
 	}
 
 })
