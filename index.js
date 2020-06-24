@@ -80,6 +80,7 @@ client.on("message", async message =>{
 				.addFields(
 					{ name: '\u200B', value: '\u200B' },
 					{name:subscribertitel, value:subscriber},
+					{ name: '\u200B', value: '\u200B' },
 					{name:instellingentitel, value:instellingen},
 					{ name: '\u200B', value: '\u200B' },
 					{name:regelstitle, value:regels},
