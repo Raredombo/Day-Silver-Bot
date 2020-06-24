@@ -1,6 +1,7 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const berichten = require('./berichten.json')
+const botConfig = require('./botConfig.json')
 
 client.once('ready', () => {
 	console.log(`${client.user.username} is online.`);
