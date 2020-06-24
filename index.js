@@ -1,6 +1,5 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const botConfig = require('./botconfig.json')
 const berichten = require('./berichten.json')
 
 client.once('ready', () => {
