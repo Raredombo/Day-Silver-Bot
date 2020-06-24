@@ -99,14 +99,29 @@ client.on("message", async message =>{
 
 				)
 				.setFooter("Bot gemaakt door Raredombo")
+		
+                if(command === `${prefix}verjaardag`){
+				return message.channel.send(botEmbed);
+		var botEmbed = new Discord.MessageEmbed()
+		    .setTitle(titel)
+				.setDescription("Verjaardag Kalender)
+				.setColor("#fcba03")
+				.setTimestamp()
+				.addFields(
+					{ name: '\u200B', value: '\u200B' },
+					{name:":birthday: join de Silver Squad Verjaardagskalender", value:"Zet je naam in de Silver Squad Verjaardagskalender, zodat we je een cadeautje kunnen geven en kunnen feliciteren op je verjaardag!"},
+					{ name: '\u200B', value: '\u200B' },
+					{name:"Linkjes", value:"[De Kalender]() /n [Zet je naam in het form]()"
+				)
+
+
+
+				)
+				.setFooter("Bot gemaakt door Raredombo")
 
 				return message.channel.send(botEmbed);
 
 
-	}
-	
-                if(command === `${prefix}verjaardag`){
-		return message.channel.send(verjaardag);
 	}
 
 })
