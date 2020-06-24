@@ -88,6 +88,7 @@ client.on("message", async message =>{
 				.addFields(
 					{ name: '\u200B', value: '\u200B' },
 					{name:":date: Planning & Schema", value:planning},
+					{ name: '\u200B', value: '\u200B' },
 					{name:":e_mail: Contact", value:contact},
 					{name:"::speech_left: Discord Link", value:discord},
 					{ name: '\u200B', value: '\u200B' },
