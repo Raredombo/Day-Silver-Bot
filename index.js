@@ -104,7 +104,7 @@ client.on("message", async message =>{
 				return message.channel.send(botEmbed);
 		var botEmbed = new Discord.MessageEmbed()
 		    .setTitle(titel)
-				.setDescription("Verjaardag Kalender)
+				.setDescription("Verjaardag Kalender")
 				.setColor("#fcba03")
 				.setTimestamp()
 				.addFields(
