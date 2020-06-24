@@ -91,7 +91,6 @@ client.on("message", async message =>{
 					{ name: '\u200B', value: '\u200B' },
 					{name:":e_mail: Contact", value:contact},
 					{name:"::speech_left: Discord Link", value:discord},
-					{ name: '\u200B', value: '\u200B' },
 					{name:"Socials", value:socials},
 
 
