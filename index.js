@@ -111,7 +111,7 @@ client.on("message", async message =>{
 					{ name: '\u200B', value: '\u200B' },
 					{name:":birthday: join de Silver Squad Verjaardagskalender", value:"Zet je naam in de Silver Squad Verjaardagskalender, zodat we je een cadeautje kunnen geven en kunnen feliciteren op je verjaardag!"},
 					{ name: '\u200B', value: '\u200B' },
-					{name:"Linkjes", value:"[De Kalender](https://calendar.google.com/calendar/b/2?cid=ZGF5c2lsdmVyOTZAZ21haWwuY29t ) /n [Zet je naam in het form](https://forms.gle/m5QvwuLB9zHZHWiK8)"
+					{name:"Linkjes", value:berichten.verjaardag}
 				         )
 				
 				.setFooter("Bot gemaakt door Raredombo")
