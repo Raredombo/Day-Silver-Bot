@@ -90,7 +90,7 @@ client.on("message", async message =>{
 					{name:":date: Planning & Schema", value:planning},
 					{ name: '\u200B', value: '\u200B' },
 					{name:":e_mail: Contact", value:contact},
-					{name:"::speech_left: Discord Link", value:discord},
+					{name:":speech_left: Discord Link", value:discord},
 					{name:"Socials", value:socials},
 
 
