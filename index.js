@@ -5,7 +5,7 @@ const botConfig = require('./botConfig.json')
 
 client.once('ready', () => {
 	console.log(`${client.user.username} is online.`);
-	client.user.setActivity("Onder constructie");
+	client.user.setActivity("24/7 Hosting!");
 });
 
 client.on("message", async message =>{
