@@ -18,7 +18,7 @@ client.on("message", async message =>{
 
 	var messageArray = message.content.split(" ");
 
-	var welkom = berichten.welkom;
+	var welkom = berichten.welkom
 
 	var regel1 = berichten.regel1
 
