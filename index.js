@@ -72,7 +72,7 @@ client.on("message", async message =>{
 
 
 	if(command === `${prefix}welkom`){
-		var botEmbed = new Discord.MessageEmbed()
+		var welkomEmbed = new Discord.MessageEmbed()
 		    .setTitle(titel)
 				.setDescription(welkom)
 				.setColor("#fcba03")
@@ -98,6 +98,10 @@ client.on("message", async message =>{
 
 				)
 				.setFooter("Bot gemaakt door Raredombo")
+		
+		channel.send(welkomEmbed);
+		
+	
 		
                 if(command === `${prefix}verjaardag`){
 				return message.channel.send(botEmbed);
