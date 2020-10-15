@@ -72,7 +72,7 @@ client.on("message", async message =>{
 
 
 	if(command === `${prefix}welkom`){
-
+			return message.channel.send(botEmbed);
 		var botEmbed = new Discord.MessageEmbed()
 		    .setTitle(titel)
 				.setDescription(welkom)
