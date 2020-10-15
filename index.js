@@ -99,7 +99,7 @@ client.on("message", async message =>{
 				)
 				.setFooter("Bot gemaakt door Raredombo")
 		
-		channel.send(welkomEmbed);
+		return message.channel.send(welkomEmbed);
 		
 	
 		
