@@ -5,7 +5,7 @@ const botConfig = require('./botConfig.json')
 
 client.once('ready', () => {
 	console.log(`${client.user.username} is online.`);
-	client.user.setActivity("twitch.tv/daanties");
+	client.user.setActivity("Under Construction...");
 });
 
 client.on("message", async message =>{
